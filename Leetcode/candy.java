@@ -27,7 +27,6 @@ public class candy<a> {
         int sum = 1;
         while (candies > 0) {
             {
-
                 for (int i = 0; i < a.length; i++) {
                     if (candies - sum >= 0) {
                         a[i] = sum;
